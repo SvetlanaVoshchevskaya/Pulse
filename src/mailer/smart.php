@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = '25012020@ukr.net';                 // Наш логин
 $mail->Password = 'btCzw5ItzKBI4mKV';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 2525;                                    // TCP port to connect to
+$mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('25012020@ukr.net', 'Pulse');   // От кого письмо 
 $mail->addAddress('25012020@ukr.net');     // Add a recipient
